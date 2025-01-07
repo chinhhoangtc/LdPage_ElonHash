@@ -1,0 +1,29 @@
+.custom-footer {
+  background: #0a0a0a;
+  padding: 0rem 8.4rem;
+}
+.custom-p-left-footer {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+}
+.custom-div-left-footer {
+  width: 300px;
+}
+.custom-div-right-footer a {
+  color: #757575;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .custom-footer-logo {
+    display: none;
+  }
+  .custom-footer {
+    background: #0a0a0a;
+    padding: 0rem 2.4rem;
+  }
+}

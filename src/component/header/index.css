@@ -1,0 +1,101 @@
+.logo-header {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.header-home {
+  padding: 2.4rem 8.4rem;
+}
+
+.menu a {
+  font-size: 1.2rem;
+  color: #f2f2f2;
+  width: 180px;
+  text-transform: uppercase;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+}
+
+.menu a:hover {
+  color: #f2f2f2;
+}
+
+.momenu {
+  top: 75px;
+  right: 0;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  transform: translateX(100%);
+  transition: transform 0.5s ease;
+}
+
+.momenu.open {
+  transform: translateX(0);
+}
+
+.momenu a {
+  color: rgb(255, 255, 255);
+}
+
+.menuMobile {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 30px;
+  transition: all 0.5s ease-in-out;
+}
+
+.menuMobile a {
+  height: 10rem;
+  line-height: 10rem;
+  padding-left: 1rem;
+  font-size: 2.4rem;
+  color: rgba(255, 255, 255, 0.653);
+}
+
+/* -------------------------------------- */
+
+a {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.menu a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+
+.menu a:hover::after {
+  width: 100%;
+}
+
+.menuMobile a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+
+.menuMobile a:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 452px) {
+  .header-home {
+    padding: 2.4rem 2.5rem;
+  }
+}
