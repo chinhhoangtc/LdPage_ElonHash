@@ -578,7 +578,7 @@
 }
 
 .custom-div-left-four div {
-  left: -100px;
+  /* left: -100px; */
   top: 25%;
 }
 
@@ -788,6 +788,10 @@
     border-top: 1px solid #272727;
   }
 
+  .custom-div-left-four div {
+    left: -210px;
+    top: 25%;
+  }
 }
 
 @media (max-width:452px) {

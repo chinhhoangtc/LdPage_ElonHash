@@ -9,9 +9,6 @@ import { Footer } from "../../component/footer";
 import icon1 from "../../assets/images/icon1.png";
 import icon2 from "../../assets/images/icon2.png";
 import icon3 from "../../assets/images/icon3.png";
-import imgBlock1 from "../../assets/images/imgBlock1.png";
-import imgBlock2 from "../../assets/images/imgBlock2.png";
-import imgBlock3 from "../../assets/images/imgBlock3.png";
 import imgIntro from "../../assets/images/imgIntro.png";
 import imgQrcode from "../../assets/images/qrCode.png";
 import imgArrow from "../../assets/images/arrow.png";
@@ -531,7 +528,9 @@ export function Home() {
           <div className="row">
             <div className="col-md-5 custom-div-left-four h-100 d-flex align-items-center justify-content-center position-relative h-auto d-none d-md-block">
               <div className=" position-absolute p-5">
-                <div className="custom-div-img-four">
+                <div className="custom-div-img-four" style={{
+                  margin: "0rem 3.4rem"
+                }}>
                   <img src={imgIntro} alt="" />
                 </div>
               </div>
