@@ -135,7 +135,7 @@ export function Home() {
           </div>
           <div className="video-container">
             <ReactPlayer
-              url="/videos/video1.mp4"
+              url="https://res.cloudinary.com/dpy89g0wy/video/upload/v1736481669/video1_c6i9am.mp4"
               controls={false}
               playing={true}
               loop={true}
@@ -207,7 +207,7 @@ export function Home() {
           <div className="d-flex">
             <div className=" video-container-2 col-4">
               <ReactPlayer
-                url="/videos/video2.mp4"
+                url="https://res.cloudinary.com/dpy89g0wy/video/upload/v1736481974/video2_xruwns.mp4"
                 controls={false}
                 playing={true}
                 loop={true}
