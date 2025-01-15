@@ -4,10 +4,6 @@
 
 /* content one  */
 
-/* .content-main-one {
-  padding: 0px 26rem;
-} */
-
 .content-left-one {
   z-index: 1;
   bottom: 10%;
@@ -48,7 +44,6 @@
   position: relative;
   width: 100%;
   height: 750px;
-  /* width: 100vw; */
   overflow: hidden;
 }
 
@@ -578,7 +573,6 @@
 }
 
 .custom-div-left-four div {
-  /* left: -100px; */
   top: 25%;
 }
 
@@ -601,7 +595,6 @@
   background: #161616;
   color: #F2F2F2;
 
-  /* box-shadow: 0rem 0.4rem 0.8rem 0.4rem #5acfff; */
 }
 
 .custom-block-h1-four {
